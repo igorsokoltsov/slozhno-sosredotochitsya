@@ -4,9 +4,53 @@
   переключая тему
 */
 
+:root.theme_dark {
+	/* фоны */
+	--bg-color: #000028;
+	--bg-accent-color: #ff0070;
+	--bg-image: url("/images/cover-image-dark.png");
+
+	/* контент */
+	--text-primary-color: #f1b2ce;
+	--text-accent-color: #ff0070;
+	--text-inverted-color: #000028;
+	--text-title-color: #db00ff;
+
+	/* контролы */
+	--button-content-color: #ff0070;
+	--button-border-color: #ff0070;
+	--button-border-hover-color: rgba(255, 0, 112, 0.40);
+	--link-color: #ff0070;
+}
+
 .page.theme_dark {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+	--bg-color: #000028;
+	--bg-accent-color: #ff0070;
+	--bg-image: url("/images/cover-image-dark.png");
+	--text-primary-color: #f1b2ce;
+	--text-accent-color: #ff0070;
+	--text-inverted-color: #000028;
+	--text-title-color: #db00ff;
+	--opacity: 1;
+	--button-content-color: #ff0070;
+	--button-border-color: #ff0070;
+	--button-border-hover-color: rgba(255, 0, 112, 0.40);
+	--link-color: #ff0070;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--bg-color: #000028;
+		--bg-accent-color: #ff0070;
+		--bg-image: url("/images/cover-image-dark.png");
+		--text-primary-color: #f1b2ce;
+		--text-accent-color: #ff0070;
+		--text-inverted-color: #000028;
+		--text-title-color: #db00ff;
+		--opacity: 1;
+		--button-content-color: #ff0070;
+		--button-border-color: #ff0070;
+		--button-border-hover-color: rgba(255, 0, 112, 0.40);
+		--link-color: #ff0070;
+	}
 }
