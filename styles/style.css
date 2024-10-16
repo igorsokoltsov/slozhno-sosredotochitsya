@@ -323,7 +323,7 @@
 	}
 
 	.content__section-columns {
-		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-columns: calc((100% - 20px) / 3);
 	}
 
 	.content__article-rows {
@@ -412,6 +412,10 @@
 		display: flex;
 		flex-direction: row;
 		margin: 0;
+	}
+
+	.content__section-columns {
+		grid-template-columns: 1fr 1fr 1fr;
 	}
 
 	.content__article-columns {
