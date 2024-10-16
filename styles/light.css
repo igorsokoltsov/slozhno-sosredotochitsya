@@ -4,29 +4,10 @@
   переключая тему
 */
 
-:root.theme-light {
-	/* фоны */
-	--bg-color: #fff1f7;
-	--bg-accent-color: #ff8dcb;
-	--bg-image: url("/images/cover-image-light.png");
-
-	/* контент */
-	--text-primary-color: #353430;
-	--text-accent-color: #353430;
-	--text-inverted-color: #353430;
-	--text-title-color: #ffc2e6;
-
-	/* контролы */
-	--button-content-color: #353430;
-	--button-border-color: #353430;
-	--button-border-hover-color: rgba(50, 49, 45, 0.40);
-	--link-color: #ff8dcb;
-}
-
 .page.theme_light {
 	--bg-color: #fff1f7;
 	--bg-accent-color: #ff8dcb;
-	--bg-image: url("/images/cover-image-light.png");
+	--bg-image: url("../images/cover-image-light.png");
 	--text-primary-color: #353430;
 	--text-accent-color: #353430;
 	--text-inverted-color: #353430;
@@ -42,7 +23,7 @@
 	:root {
 		--bg-color: #fff1f7;
 		--bg-accent-color: #ff8dcb;
-		--bg-image: url("/images/cover-image-light.png");
+		--bg-image: url("../images/cover-image-light.png");
 		--text-primary-color: #353430;
 		--text-accent-color: #353430;
 		--text-inverted-color: #353430;

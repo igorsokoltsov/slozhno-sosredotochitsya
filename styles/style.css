@@ -1,11 +1,13 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
 .page {
+	background-color: var(--bg-color);
 	background-image: var(--bg-image);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
+	min-height: 668px;
 }
 
 .header {
@@ -112,6 +114,14 @@
 
 .content__item-link:hover {
 	text-decoration: underline;
+}
+
+.content__item-link:focus {
+	outline: none;
+}
+
+.content__item-link:focus-visible {
+	outline: 1px solid var(--text-primary-color);
 }
 
 .header__title {
@@ -250,7 +260,7 @@
 
 .footer__text {
 	color: var(--text-title-color);
-	text-shadow: 4px 4px 0 var(--bg-accent-color);
+	text-shadow: 2px 2px 0 var(--bg-accent-color);
 	font-family: "IBM Plex Mono", sans-serif;
 	font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
 	font-weight: 700;
@@ -419,6 +429,6 @@
 	}
 
 	.footer__text {
-		text-shadow: 4px 4px 0 #ff0070;
+		text-shadow: 2px 2px 0 #ff0070;
 	}
 }
